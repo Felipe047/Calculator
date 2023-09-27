@@ -114,8 +114,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void btn7Click(View view) {
-        System.out.print("7");
         TextView text = (TextView) findViewById(R.id.text1);
+        text.setText(text.getText() + "7");
     }
 
     public void btn8Click(View view) {
